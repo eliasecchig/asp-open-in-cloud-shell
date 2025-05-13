@@ -1,0 +1,13 @@
+Welcome to Agent Starter Pack in Cloud Shell! Launch the following command to begin your journey! 
+
+Installation:
+```
+python3 -m pip install --user pipx && python3 -m pipx ensurepath
+source ~/.bashrc
+pipx upgrade agent-starter-pack
+```
+
+Create an agent:
+```
+agent-starter-pack create my-awesome-agent
+```
