@@ -5,14 +5,13 @@ Launch the following commands to begin:
 1️⃣ Install Tools & Agent Starter Pack:
    (This sets up `pipx`, updates your shell path, and installs `agent-starter-pack`.)
     ```
-    python3 -m pip install --user pipx && python3 -m pipx ensurepath
-    source ~/.bashrc
-    pipx install agent-starter-pack
+    curl -LsSf https://astral.sh/uv/install.sh
+    source $HOME/.local/bin/env
     ```
 
 2️⃣  Create Your Agent:
     ```
-    agent-starter-pack create my-awesome-agent
+    uvx agent-starter-pack create my-awesome-agent
     ```
 
 You're ready to build!
