@@ -5,7 +5,7 @@ Launch the following commands to begin:
 1️⃣ Install Tools & Agent Starter Pack:
    (This sets up `pipx`, updates your shell path, and installs `agent-starter-pack`.)
     ```
-    curl -LsSf https://astral.sh/uv/install.sh
+    curl -LsSf https://astral.sh/uv/install.sh | sh
     source $HOME/.local/bin/env
     ```
 
