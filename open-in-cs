@@ -1,8 +1,6 @@
 🚀  Welcome to Agent Starter Pack in Cloud Shell!
 
-Launch the following commands to begin:
-
-1️⃣  Run the following command to create Your Agent:
+Run the following command to create Your Agent:
     ```
     uvx agent-starter-pack create my-awesome-agent
     ```
